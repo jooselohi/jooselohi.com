@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /401.html
+Disallow: /404.html
+Disallow: /privacy-policy.html
+
+# Exclude paginated URLs to prevent duplicate content indexing
+Disallow: /*?page=
+
+# Sitemap location
+Sitemap: https://www.jooselohi.com/sitemap.xml
