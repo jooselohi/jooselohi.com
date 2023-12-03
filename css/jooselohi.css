@@ -92,7 +92,7 @@ strong {
 }
 
 .brand-navbar {
-  height: 26px;
+  height: 27px;
   filter: invert();
 }
 
@@ -729,7 +729,7 @@ strong {
   background-color: #fdfdfd;
   border-radius: 10px;
   padding: 25px;
-  display: block;
+  display: none;
   position: fixed;
   top: auto;
   bottom: 30px;
