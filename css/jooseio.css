@@ -830,6 +830,11 @@ strong {
   margin-right: 10px;
 }
 
+.contact-social-icon.large {
+  width: 18px;
+  height: 18px;
+}
+
 .services-grid {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
