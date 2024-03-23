@@ -1770,6 +1770,10 @@ h2 {
     grid-row-gap: .75rem;
   }
 
+  .projects-item-image {
+    height: 350px;
+  }
+
   .projects-item-content {
     padding: 1.5rem;
   }
