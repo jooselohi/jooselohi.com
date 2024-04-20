@@ -506,6 +506,10 @@ h2 {
   text-decoration: none;
 }
 
+.brand-title.small {
+  font-size: .9rem;
+}
+
 .link-block {
   text-decoration: none;
 }
@@ -644,6 +648,10 @@ h2 {
 
 .button-text.inverse {
   color: #fff;
+}
+
+.button-text.hide {
+  display: none;
 }
 
 .button-text-text {
@@ -1101,6 +1109,20 @@ h2 {
 
 .custom-margins {
   margin-bottom: 16px;
+}
+
+.exp-company-wrapper {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.exp-image {
+  object-fit: contain;
+  border-radius: 3px;
+  width: 36px;
+  height: 36px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1798,6 +1820,8 @@ h2 {
   }
 
   .exp-data {
+    grid-column-gap: 14px;
+    grid-row-gap: 14px;
     flex-flow: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -1845,6 +1869,18 @@ h2 {
     grid-template-columns: 1fr 1fr;
     grid-auto-columns: 1fr;
     display: flex;
+  }
+
+  .exp-company-wrapper {
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .exp-image {
+    width: 38px;
+    height: 38px;
   }
 }
 
