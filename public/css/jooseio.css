@@ -192,6 +192,11 @@ strong {
   border-color: #ffffff73;
 }
 
+.contact-mail.left.darker {
+  background-color: #0000000f;
+  border-color: #ffffff73;
+}
+
 .contact-mail.left {
   transition-property: all;
   transition-duration: .15s;
@@ -571,10 +576,6 @@ strong {
   margin-bottom: 40px;
 }
 
-.section-title.small {
-  font-size: 28px;
-}
-
 .button-wrap {
   grid-column-gap: 20px;
   align-items: center;
@@ -804,60 +805,6 @@ strong {
   color: var(--title);
 }
 
-.learn-more-span {
-  color: #151515;
-  text-decoration: underline;
-}
-
-.cookie-text {
-  color: #333;
-  margin-bottom: 12px;
-}
-
-.fs-cc-banner_component {
-  background-color: #fff;
-  border: 1px solid #ebebeb;
-  border-radius: 10px;
-  width: 625px;
-  padding: 25px;
-  display: none;
-  position: fixed;
-  inset: auto 30px 30px auto;
-}
-
-.cookie-content {
-  align-items: center;
-  display: flex;
-}
-
-.cookie-button-blue {
-  color: #fff;
-  background-color: #5cc2c0;
-  border-radius: 5px;
-  margin-right: 20px;
-  padding-left: 56px;
-  padding-right: 56px;
-}
-
-.cookie-button-blue:hover {
-  border-bottom-style: solid;
-  border-bottom-color: #203492;
-}
-
-.cookie-title {
-  color: #151515;
-  margin-bottom: 8px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-.cookie-button-transparent {
-  color: #151515;
-  margin-left: 10px;
-  text-decoration: none;
-}
-
 .wp-data {
   margin-top: 32px;
 }
@@ -901,181 +848,6 @@ strong {
 
 .section-title-2 {
   margin-bottom: 40px;
-}
-
-.whatsapp-block {
-  z-index: 30;
-  flex-direction: column;
-  align-items: flex-end;
-  display: flex;
-  position: fixed;
-  inset: auto 30px 92px auto;
-}
-
-.profile-wrapper {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  align-items: center;
-  display: flex;
-}
-
-.chat-block {
-  background-color: #fff;
-  border-radius: 8px;
-  width: 80%;
-  padding: 15px;
-}
-
-.live-chat-text {
-  color: #fff;
-  text-decoration: none;
-}
-
-.profile-image-wrapper-2 {
-  position: relative;
-}
-
-.live-icon-chat {
-  object-fit: contain;
-  object-position: 50% 0%;
-  background-color: #eee;
-  border-radius: 50%;
-  width: 47px;
-  height: 47px;
-  margin-right: 0;
-}
-
-.top-section {
-  justify-content: space-between;
-  align-items: center;
-  height: 25%;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-}
-
-.live-icon {
-  background-color: #25d366;
-  border-radius: 100%;
-  width: 13px;
-  height: 13px;
-  position: absolute;
-  inset: 2px auto auto 2px;
-}
-
-.live-icon.profile-live-icon {
-  border: 1.5px solid #fff;
-  width: 10px;
-  height: 10px;
-  inset: auto 2px 2px auto;
-}
-
-.chat-section {
-  background-color: #e6ddd4;
-  height: 50%;
-  padding: 16px 20px;
-}
-
-.close-livechat-icon {
-  width: auto;
-  height: auto;
-}
-
-.whatsapp-icon {
-  width: 26px;
-  height: auto;
-}
-
-.whatsapp-chat {
-  background-color: #fff;
-  border: 1px solid #00000012;
-  border-radius: 20px;
-  flex-direction: column;
-  width: 300px;
-  height: 315px;
-  margin-bottom: 16px;
-  display: flex;
-  overflow: hidden;
-}
-
-.live-chat-bottom-text {
-  font-size: 10px;
-}
-
-.live-chat-bottom-text.block {
-  margin-bottom: 5px;
-  font-size: 12px;
-}
-
-.live-chat-top-text {
-  letter-spacing: 0;
-  font-size: 12px;
-  font-weight: 500;
-  position: static;
-}
-
-.live-chat-top-text.block {
-  color: #b0b0b0;
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-
-.livechat-button {
-  background-color: #25d366;
-  border-radius: 200px;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 42px;
-  text-decoration: none;
-  display: flex;
-}
-
-.whatsapp-container {
-  z-index: 30;
-  cursor: pointer;
-  background-color: #000;
-  border: 1px solid #272727;
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  width: 57px;
-  height: 57px;
-  transition: all .15s;
-  display: flex;
-  position: relative;
-  inset: auto 0% 0% auto;
-}
-
-.whatsapp-container:hover {
-  background-color: #333;
-  border-color: #333;
-  transform: scale(1.02);
-}
-
-.live-chat-link {
-  border-radius: 0;
-  justify-content: center;
-  align-items: center;
-  height: 25%;
-  text-decoration: none;
-  display: flex;
-}
-
-.close-live-chat-container {
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  width: 10%;
-  height: 100%;
-  display: flex;
-}
-
-.small-whatsapp-icon {
-  object-fit: contain;
-  width: auto;
-  height: auto;
-  margin-right: 10px;
 }
 
 .companies-grid {
@@ -1172,32 +944,6 @@ strong {
   font-size: 24px;
 }
 
-.schedule-link-block {
-  background-color: var(--black);
-  color: var(--white);
-  border: 1px solid #272727;
-  border-radius: 50px;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 12px 24px;
-  font-size: 15px;
-  font-weight: 400;
-  text-decoration: none;
-  transition: all .15s;
-  display: flex;
-  position: fixed;
-  inset: auto 30px 30px auto;
-}
-
-.schedule-link-block:hover {
-  background-color: #333;
-  transform: scale(1.02);
-}
-
-.schedule-link-block.hide {
-  display: none;
-}
-
 .grid-fourths {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1265,13 +1011,21 @@ strong {
   display: flex;
 }
 
-.certificate-wrapper.hide {
-  display: none;
-}
-
 .contact-icon {
   width: 14px;
   height: 14px;
+}
+
+.new-tag {
+  color: var(--white);
+  background-color: #25d366;
+  border-radius: 4px;
+  margin-left: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 10px;
+  line-height: 1.6;
+  display: inline-flex;
 }
 
 @media screen and (min-width: 1280px) {
@@ -1279,21 +1033,6 @@ strong {
     padding-top: 32px;
     padding-left: 64px;
     padding-right: 64px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  .whatsapp-chat {
-    display: none;
-  }
-
-  .livechat-button {
-    transition: all .2s;
-  }
-
-  .livechat-button:hover {
-    background-color: #000;
-    transform: scale(1.05);
   }
 }
 
@@ -1439,10 +1178,6 @@ strong {
     grid-column-gap: 70px;
   }
 
-  .cookie-text {
-    margin-bottom: 12px;
-  }
-
   .work-process {
     margin-bottom: 100px;
   }
@@ -1451,20 +1186,10 @@ strong {
     grid-template-columns: 1fr 1fr;
   }
 
-  .whatsapp-block {
-    bottom: 82px;
-    right: 20px;
-  }
-
   .modal-scroll {
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  .schedule-link-block {
-    bottom: 20px;
-    right: 20px;
   }
 }
 
@@ -1567,22 +1292,7 @@ strong {
     max-width: 90%;
   }
 
-  .cookie-text {
-    margin-bottom: 12px;
-  }
-
-  .fs-cc-banner_component {
-    max-width: 90vw;
-    bottom: 10px;
-    right: 10px;
-  }
-
-  .cookie-content {
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-
-  .cookie-title, .wp-title {
+  .wp-title {
     margin-bottom: 8px;
   }
 
@@ -1597,13 +1307,8 @@ strong {
     grid-template-columns: 1fr;
   }
 
-  .section-title-2, .heading-2 {
+  .section-title-2 {
     font-size: 32px;
-  }
-
-  .whatsapp-block {
-    bottom: 76px;
-    right: 15px;
   }
 
   .modal-scroll {
@@ -1616,11 +1321,6 @@ strong {
     padding-top: 50px;
     padding-left: 7%;
     padding-right: 7%;
-  }
-
-  .schedule-link-block {
-    bottom: 15px;
-    right: 15px;
   }
 
   .grid-fourths, .grid-fourths.pricing-grid {
@@ -1810,47 +1510,6 @@ strong {
     padding-top: 120px;
   }
 
-  .button-wrapper {
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    display: flex;
-  }
-
-  .cookie-text {
-    margin-bottom: 14px;
-  }
-
-  .fs-cc-banner_component {
-    width: 100%;
-    max-width: none;
-    bottom: 0;
-    right: auto;
-  }
-
-  .cookie-content.mobile-vertical {
-    flex-direction: column;
-  }
-
-  .cookie-button-blue {
-    text-align: center;
-    margin-bottom: 0;
-    margin-right: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .cookie-title {
-    margin-bottom: 10px;
-  }
-
-  .cookie-button-transparent {
-    text-align: center;
-    margin-left: 0;
-  }
-
   .wp-title {
     font-size: 18px;
   }
@@ -1868,35 +1527,6 @@ strong {
   .section-title-2 {
     margin-bottom: 20px;
     font-size: 28px;
-  }
-
-  .heading-2 {
-    font-size: 24px;
-  }
-
-  .whatsapp-block {
-    width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-    bottom: 62px;
-    right: 0;
-  }
-
-  .whatsapp-icon {
-    width: 26px;
-  }
-
-  .whatsapp-chat {
-    width: 100%;
-    height: 40vh;
-    position: relative;
-  }
-
-  .whatsapp-container {
-    width: 60px;
-    height: 60px;
-    bottom: 10px;
-    right: 0;
   }
 
   .companies-grid {
@@ -1922,11 +1552,6 @@ strong {
     padding-right: 5%;
   }
 
-  .schedule-link-block {
-    bottom: 10px;
-    right: 10px;
-  }
-
   .grid-fourths {
     grid-template-columns: 1fr;
   }
@@ -1942,7 +1567,7 @@ strong {
   }
 }
 
-#w-node-_87215c25-1302-1b37-a1fe-8156a6556f1a-8070e425, #w-node-_730f6383-5ba7-1490-4afd-4df3148a4730-8070e425, #w-node-b2054b89-5627-4ada-880c-fe47e89bc164-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f1b-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f24-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f27-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f2a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f2d-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f30-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f35-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f38-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f3b-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f3e-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f41-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f44-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f47-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4d-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4f-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f51-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f53-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f56-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f58-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5c-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5f-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f61-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f64-8070e425, #w-node-_3230f59f-9ac9-ccd7-21a3-060e645274df-8070e425, #w-node-_9da01bcf-49f8-d8e1-ea61-6afea1cb9c16-8070e425, #w-node-_1e412d30-581c-af87-d696-cb658d80a0cc-8070e425, #w-node-_3b6acb09-d250-2220-3a33-798c537e274f-8070e425 {
+#w-node-_87215c25-1302-1b37-a1fe-8156a6556f1a-8070e425, #w-node-_730f6383-5ba7-1490-4afd-4df3148a4730-8070e425, #w-node-b2054b89-5627-4ada-880c-fe47e89bc164-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f1b-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f24-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f27-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f2a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f2d-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f30-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f35-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f38-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f3b-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f3e-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f41-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f44-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f47-8070e425, #w-node-ef3da1b5-e73f-7601-dc0a-0adcbef1bdbe-8070e425, #w-node-_2cce0c4f-230f-dd98-08e9-183bbdd9f95a-8070e425, #w-node-b5125957-6b58-27a3-e065-a6cf73b56664-8070e425, #w-node-bd7c6655-3baf-82f7-d8a7-8663e1aea72a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4d-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f4f-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f51-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f53-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f56-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f58-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5a-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5c-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f5f-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f61-8070e425, #w-node-_87215c25-1302-1b37-a1fe-8156a6556f64-8070e425, #w-node-_3230f59f-9ac9-ccd7-21a3-060e645274df-8070e425, #w-node-_9da01bcf-49f8-d8e1-ea61-6afea1cb9c16-8070e425, #w-node-_1e412d30-581c-af87-d696-cb658d80a0cc-8070e425, #w-node-_3b6acb09-d250-2220-3a33-798c537e274f-8070e425 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
