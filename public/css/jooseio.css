@@ -1671,6 +1671,10 @@ strong {
     right: 20px;
   }
 
+  .contact-mail.left.mail {
+    bottom: 76px;
+  }
+
   .contact-mail.left {
     left: 20px;
   }
