@@ -1028,6 +1028,10 @@ strong {
   display: inline-flex;
 }
 
+.space {
+  height: 24px;
+}
+
 @media screen and (min-width: 1280px) {
   .hero-img {
     padding-top: 32px;
@@ -1410,10 +1414,6 @@ strong {
     padding-bottom: 16px;
   }
 
-  .am-text {
-    margin-bottom: 10px;
-  }
-
   .about-me {
     margin-bottom: var(--portrait-mobile-space);
     padding-bottom: 10px;
@@ -1557,13 +1557,21 @@ strong {
   }
 
   .grid-fourths.pricing-grid {
-    grid-template-columns: 1.4fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
   }
 
   .cell {
     height: auto;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  .cell.centered-cell {
+    text-align: center;
+  }
+
+  .cell-legend-text.subtext {
+    font-size: 13px;
   }
 }
 
