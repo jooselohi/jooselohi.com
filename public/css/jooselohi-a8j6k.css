@@ -1420,6 +1420,10 @@ strong {
   margin-bottom: 80px;
 }
 
+.logo-upload {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   h2, p {
     margin-bottom: 16px;
