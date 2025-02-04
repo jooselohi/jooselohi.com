@@ -514,10 +514,6 @@ strong {
   margin-bottom: var(--desktop-space);
 }
 
-.contact-section.hide {
-  display: none;
-}
-
 .social-wrap {
   grid-column-gap: 45px;
   grid-row-gap: 10px;
