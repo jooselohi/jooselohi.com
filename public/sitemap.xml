@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>
-        <loc>https://jooselohi.com/</loc>
-        <priority>1.00</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.jooselohi.com/" />
-        <changefreq>monthly</changefreq>
-    </url>
-</urlset>
+<?xml version='1.0' encoding='utf-8'?>
+<ns:urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <ns:url>
+        <ns:loc>https://jooselohi.com/</ns:loc>
+        <ns:priority>1.00</ns:priority>
+        <html:link rel="alternate" hreflang="en" href="https://www.jooselohi.com/" />
+        <ns:changefreq>monthly</ns:changefreq>
+    <ns:lastmod>2025-02-22</ns:lastmod></ns:url>
+</ns:urlset>
