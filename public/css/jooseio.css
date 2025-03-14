@@ -710,7 +710,7 @@ strong {
 }
 
 .nav-logo {
-  width: 90px;
+  width: 110px;
 }
 
 .contact-social-icon {
@@ -1029,6 +1029,23 @@ strong {
 
 .space {
   height: 24px;
+}
+
+.logo-text {
+  color: #181818;
+  letter-spacing: -.5px;
+  font-family: Syne, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.logo-text.white {
+  color: var(--white);
+}
+
+.logo-hide {
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
