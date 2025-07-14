@@ -524,6 +524,12 @@ figcaption {
   margin-bottom: 8rem;
 }
 
+.testimonial-section.no-overflow {
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+}
+
 .testimonial-items-wrap {
   display: flex;
 }
@@ -539,17 +545,18 @@ figcaption {
 
 .testimonial-person {
   grid-column-gap: .75rem;
-  align-items: center;
+  grid-row-gap: 1.25rem;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
   display: flex;
 }
 
 .testimonial-person-image {
-  object-fit: cover;
-  object-position: 0% 50%;
-  border-radius: 100%;
+  object-fit: contain;
   flex: none;
-  width: 3rem;
-  height: 3rem;
+  width: 10rem;
+  height: 2rem;
   overflow: hidden;
 }
 
@@ -810,6 +817,127 @@ figcaption {
   line-height: 1.1;
 }
 
+.client-wrapper-2 {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 40px;
+  display: flex;
+}
+
+.slider-testimonials {
+  background-color: #0000;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 600px;
+  height: auto;
+  padding: 25px 50px;
+  display: flex;
+  overflow: visible;
+}
+
+.right-arrow {
+  opacity: .6;
+  border: 1px solid #d6d1ca;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: all .2s;
+  display: none;
+  inset: -40% -32% auto auto;
+}
+
+.right-arrow:hover {
+  opacity: 1;
+}
+
+.right-arrow.left {
+  margin-right: 60px;
+}
+
+.author-flex-2 {
+  grid-row-gap: 20px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.testimonials-slider {
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+
+.down-arrow-2 {
+  z-index: 1;
+  width: 23px;
+  position: relative;
+}
+
+.down-arrow-2.rotate {
+  transform: rotate(180deg);
+}
+
+.slide-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.slide-1 {
+  width: 500px;
+  overflow: visible;
+}
+
+.masonry__grid-quote {
+  color: var(--black);
+  text-align: center;
+  border-left-style: none;
+  border-left-width: 0;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.slide-nav-2 {
+  justify-content: center;
+  margin-bottom: -35px;
+  font-size: 10px;
+  display: flex;
+}
+
+.mask {
+  width: 100%;
+  overflow: visible;
+}
+
+.testimonials-name-2 {
+  color: #0c0407;
+  margin-bottom: 5px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.text-block {
+  font-size: 1rem;
+}
+
 @media screen and (min-width: 1280px) {
   .brands-wrap {
     grid-row-gap: 60px;
@@ -952,6 +1080,18 @@ figcaption {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .right-arrow {
+    display: none;
+  }
+
+  .down-arrow-2 {
+    width: 20px;
+  }
+
+  .slide-nav-2 {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1067,6 +1207,21 @@ figcaption {
     padding-top: 50px;
     padding-left: 7%;
     padding-right: 7%;
+  }
+
+  .slider-testimonials {
+    max-width: 450px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slide-1 {
+    width: 450px;
+  }
+
+  .testimonials-name-2 {
+    margin-bottom: 3px;
+    font-size: 16px;
   }
 }
 
@@ -1208,6 +1363,43 @@ figcaption {
     margin-bottom: 0;
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .client-wrapper-2 {
+    padding: 30px 20px 25px;
+  }
+
+  .slider-testimonials {
+    max-width: 300px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .author-flex-2 {
+    grid-column-gap: 20px;
+  }
+
+  .slide-content {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .slide-1 {
+    width: 100%;
+  }
+
+  .masonry__grid-quote {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .slide-nav-2 {
+    margin-bottom: -65px;
+  }
+
+  .testimonials-name-2 {
+    margin-bottom: 0;
   }
 }
 
