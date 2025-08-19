@@ -555,7 +555,7 @@ figcaption {
 .testimonial-person-image {
   object-fit: contain;
   flex: none;
-  width: 10rem;
+  width: 9rem;
   height: 2rem;
   overflow: hidden;
 }
